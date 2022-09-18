@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/arch-linux/</loc>
+    <loc>https://moniz.pt/tags/arch-linux/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/tags/gaming/</loc>
+    <loc>https://moniz.pt/tags/gaming/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
+    <loc>https://moniz.pt/tags/linux/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://moniz.pt/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://moniz.pt/posts/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/posts/single-gpu-passthrough/</loc>
+    <loc>https://moniz.pt/posts/single-gpu-passthrough/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://moniz.pt/tags/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/tags/tech/</loc>
+    <loc>https://moniz.pt/tags/tech/</loc>
     <lastmod>2022-09-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://moniz.pt/about/</loc>
     <lastmod>2022-08-09T16:14:09+01:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://moniz.pt/archives/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://moniz.pt/categories/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://moniz.pt/search/</loc>
   </url>
 </urlset>

@@ -10,15 +10,15 @@
 <meta name="description" content="Hello folks, here are the steps I had to take to eventually get single GPU passthrough working on Arch Linux with QEMU with an AMD GPU (specifically a PowerColor Red Devil 5700XT 8GB), the problems i had to face and the solutions I found to said problems.
 But first, why? Well, dual-booting Windows has always been a bummer to me. Sure, it works wonders in terms of performance for gaming, you&rsquo;re playing on actual Windows without any translation going on, but having to reboot the computer and dedicating a specific amount of space for it always rubbed me the wrong way.">
 <meta name="author" content="">
-<link rel="canonical" href="/posts/single-gpu-passthrough/">
+<link rel="canonical" href="https://moniz.pt/posts/single-gpu-passthrough/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="mask-icon" href="safari-pinned-tab.svg">
+<link rel="icon" href="https://moniz.pt/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://moniz.pt/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://moniz.pt/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://moniz.pt/apple-touch-icon.png">
+<link rel="mask-icon" href="https://moniz.pt/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -61,7 +61,7 @@ But first, why? Well, dual-booting Windows has always been a bummer to me. Sure,
 <meta property="og:description" content="Hello folks, here are the steps I had to take to eventually get single GPU passthrough working on Arch Linux with QEMU with an AMD GPU (specifically a PowerColor Red Devil 5700XT 8GB), the problems i had to face and the solutions I found to said problems.
 But first, why? Well, dual-booting Windows has always been a bummer to me. Sure, it works wonders in terms of performance for gaming, you&rsquo;re playing on actual Windows without any translation going on, but having to reboot the computer and dedicating a specific amount of space for it always rubbed me the wrong way." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/single-gpu-passthrough/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://moniz.pt/posts/single-gpu-passthrough/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-09-09T16:14:09+01:00" />
 <meta property="article:modified_time" content="2022-09-09T16:14:09+01:00" />
 
@@ -75,18 +75,18 @@ But first, why? Well, dual-booting Windows has always been a bummer to me. Sure,
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [, 
+  "itemListElement": [
     {
       "@type": "ListItem",
-      "position":  2 ,
+      "position":  1 ,
       "name": "Posts",
-      "item": "/posts/"
+      "item": "https://moniz.pt/posts/"
     }, 
     {
       "@type": "ListItem",
-      "position":  3 ,
+      "position":  2 ,
       "name": "Single GPU Passthrough on linux with AMD",
-      "item": "/posts/single-gpu-passthrough/"
+      "item": "https://moniz.pt/posts/single-gpu-passthrough/"
     }
   ]
 }
@@ -108,14 +108,14 @@ But first, why? Well, dual-booting Windows has always been a bummer to me. Sure,
   "dateModified": "2022-09-09T16:14:09+01:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/posts/single-gpu-passthrough/"
+    "@id": "https://moniz.pt/posts/single-gpu-passthrough/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "moniz",
     "logo": {
       "@type": "ImageObject",
-      "url": "/favicon.ico"
+      "url": "https://moniz.pt/favicon.ico"
     }
   }
 }
@@ -137,7 +137,7 @@ But first, why? Well, dual-booting Windows has always been a bummer to me. Sure,
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="" accesskey="h" title="moniz (Alt + H)">moniz</a>
+            <a href="https://moniz.pt/" accesskey="h" title="moniz (Alt + H)">moniz</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -163,22 +163,22 @@ But first, why? Well, dual-booting Windows has always been a bummer to me. Sure,
         </div>
         <ul id="menu">
             <li>
-                <a href="/posts/" title="posts">
+                <a href="https://moniz.pt/posts/" title="posts">
                     <span>posts</span>
                 </a>
             </li>
             <li>
-                <a href="/archives/" title="archive">
+                <a href="https://moniz.pt/archives/" title="archive">
                     <span>archive</span>
                 </a>
             </li>
             <li>
-                <a href="/tags/" title="tags">
+                <a href="https://moniz.pt/tags/" title="tags">
                     <span>tags</span>
                 </a>
             </li>
             <li>
-                <a href="/about" title="about">
+                <a href="https://moniz.pt/about" title="about">
                     <span>about</span>
                 </a>
             </li>
@@ -189,7 +189,7 @@ But first, why? Well, dual-booting Windows has always been a bummer to me. Sure,
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://moniz.pt/">Home</a>&nbsp;»&nbsp;<a href="https://moniz.pt/posts/">Posts</a></div>
     <h1 class="post-title">
       Single GPU Passthrough on linux with AMD
     </h1>
@@ -528,10 +528,10 @@ Clone <a href="https://gitlab.com/risingprismtv/single-gpu-passthrough/-/tree/ma
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="/tags/linux/">linux</a></li>
-      <li><a href="/tags/arch-linux/">arch-linux</a></li>
-      <li><a href="/tags/tech/">tech</a></li>
-      <li><a href="/tags/gaming/">gaming</a></li>
+      <li><a href="https://moniz.pt/tags/linux/">linux</a></li>
+      <li><a href="https://moniz.pt/tags/arch-linux/">arch-linux</a></li>
+      <li><a href="https://moniz.pt/tags/tech/">tech</a></li>
+      <li><a href="https://moniz.pt/tags/gaming/">gaming</a></li>
     </ul>
 
   </footer>
@@ -539,7 +539,7 @@ Clone <a href="https://gitlab.com/risingprismtv/single-gpu-passthrough/-/tree/ma
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="">moniz</a></span>
+    <span>&copy; 2022 <a href="https://moniz.pt/">moniz</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
