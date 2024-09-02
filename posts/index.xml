@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on moniz</title>
-    <link>https://moniz.pt/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on moniz</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Sep 2022 16:14:09 +0100</lastBuildDate><atom:link href="https://moniz.pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.126.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Sep 2022 16:14:09 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Single GPU Passthrough on linux with AMD</title>
-      <link>https://moniz.pt/posts/single-gpu-passthrough/</link>
+      <link>http://localhost:1313/posts/single-gpu-passthrough/</link>
       <pubDate>Fri, 09 Sep 2022 16:14:09 +0100</pubDate>
-      
-      <guid>https://moniz.pt/posts/single-gpu-passthrough/</guid>
-      <description>Hello folks, here are the steps I had to take to eventually get single GPU passthrough working on Arch Linux with QEMU with an AMD GPU (specifically a PowerColor Red Devil 5700XT 8GB), the problems i had to face and the solutions I found to said problems.
-But first, why? Well, dual-booting Windows has always been a bummer to me. Sure, it works wonders in terms of performance for gaming, you&amp;rsquo;re playing on actual Windows without any translation going on, but having to reboot the computer and dedicating a specific amount of space for it always rubbed me the wrong way.</description>
+      <guid>http://localhost:1313/posts/single-gpu-passthrough/</guid>
+      <description>A short guide on how to passthrough an AMD GPU on Linux.</description>
     </item>
-    
   </channel>
 </rss>
