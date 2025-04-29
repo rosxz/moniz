@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on moniz</title><link>https://moniz.pt/posts/</link><description>Recent content in Posts on moniz</description><generator>Hugo -- 0.126.1</generator><language>en</language><lastBuildDate>Fri, 09 Sep 2022 16:14:09 +0100</lastBuildDate><atom:link href="https://moniz.pt/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Single GPU Passthrough on linux with AMD</title><link>https://moniz.pt/posts/single-gpu-passthrough/</link><pubDate>Fri, 09 Sep 2022 16:14:09 +0100</pubDate><guid>https://moniz.pt/posts/single-gpu-passthrough/</guid><description>A short guide on how to passthrough an AMD GPU on Linux.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on moniz</title>
+    <link>https://moniz.pt/posts/</link>
+    <description>Recent content in Posts on moniz</description>
+    <generator>Hugo -- 0.146.7</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 22:59:07 +0100</lastBuildDate>
+    <atom:link href="https://moniz.pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alesis Turbo Mesh</title>
+      <link>https://moniz.pt/posts/alesis-turbo-mesh/</link>
+      <pubDate>Wed, 23 Apr 2025 22:59:07 +0100</pubDate>
+      <guid>https://moniz.pt/posts/alesis-turbo-mesh/</guid>
+      <description>&lt;h2 id=&#34;childhood-and-music&#34;&gt;Childhood and music&lt;/h2&gt;
+&lt;p&gt;I used to play piano as a child, but
+I had difficult learning it to the point I had to use color-coded notes. Later on, around the 7th grade, I picked up the classical guitar, but due to lack of interest by myself
+and a not so meaningful selection of songs to learn from my teacher and what not,
+I ended up dropping those instruments (I also envied my brother who had an electric
+guitar lol).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Single GPU Passthrough on linux with AMD</title>
+      <link>https://moniz.pt/posts/single-gpu-passthrough/</link>
+      <pubDate>Fri, 09 Sep 2022 16:14:09 +0100</pubDate>
+      <guid>https://moniz.pt/posts/single-gpu-passthrough/</guid>
+      <description>A short guide on how to passthrough an AMD GPU on Linux.</description>
+    </item>
+  </channel>
+</rss>
